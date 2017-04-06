@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="30dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="30dp"
+    android:weightSum="1">
+
+
+    <FrameLayout
+        android:id="@+id/mainLayout"
+        android:orientation="vertical"
+        android:layout_height="330dp"
+        android:layout_width="440dp">
+
+
+    </FrameLayout>
+
+    <Button
+        android:text="Start"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:id="@+id/button"
+        android:layout_weight="1"
+        android:layout_marginLeft="440dp"
+        android:layout_marginTop="140dp" />
+
+</RelativeLayout>
